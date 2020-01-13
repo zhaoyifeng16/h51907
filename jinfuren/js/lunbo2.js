@@ -1,0 +1,1 @@
+var content=document.getElementsByClassName("content")[0],lun_ul=content.getElementsByTagName("ul")[0],lun_lis=lun_ul.getElementsByTagName("li"),lun_btns=content.getElementsByClassName("btn");lun_ul.style.left=0;var leftV=parseInt(lun_ul.style.left);setInterval(function(){-882==--leftV&&(leftV=0),lun_ul.style.left=leftV+"px"},10);
